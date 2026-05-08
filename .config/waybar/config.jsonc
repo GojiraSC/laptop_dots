@@ -57,6 +57,7 @@
 	"network",
 	"cpu",
 	"memory",
+	"battery",
 	"temperature",
 	"custom/power"
     ],
@@ -106,6 +107,14 @@
 	"format": "{}%  ",
 	"tooltip-format": "{used:0.1f}GiB / {total:0.1f}GiB",
 	"interval": 5
+    },
+
+    "battery": {
+	"format": "{capacity}% {icon}",
+	"format-charging": "{capacity}% 󰂄",
+	"format-plugged": "{capacity}% 󰚥",
+	"format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+	"interval": 30
     },
 
     "temperature": {
