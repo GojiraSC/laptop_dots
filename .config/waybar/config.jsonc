@@ -39,15 +39,19 @@
 },
 
     "modules-center": [
-	"hyprland/workspaces"
+	"ext/workspaces",
+    "dwl/window"
     ],
-    "hyprland/workspaces": {
+    "ext/workspaces": {
 	"format": "[{id}]",
 	"sort-by": "number",
 	"on-click": "activate",
 	"persistent-workspaces": {
 	  "*": 5
-	}
+	},
+    "dwl/window": {
+    "format": "[{layout}] {title}"
+    }
     },
 
     "modules-right": [
