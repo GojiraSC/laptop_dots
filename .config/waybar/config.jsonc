@@ -39,8 +39,7 @@
 },
 
     "modules-center": [
-	"ext/workspaces",
-    "dwl/window"
+	"ext/workspaces"
     ],
     "ext/workspaces": {
 	"format": "[{id}]",
@@ -48,10 +47,8 @@
 	"on-click": "activate",
 	"persistent-workspaces": {
 	  "*": 5
-	},
-    "dwl/window": {
-    "format": "[{layout}] {title}"
-    }
+	}
+    
     },
 
     "modules-right": [
